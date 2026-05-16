@@ -1,10 +1,10 @@
 # Cook API
 
-[![en](https://img.shields.io/badge/lang-en-blue)](https://github.com/luz-ojeda/cook-api/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-blue)](https://github.com/lezojeda/cook-api/blob/main/README.md)
 
 API en .NET que sirve como una plataforma sencilla para gestionar recetas de cocina.
 
-Puede encontrar una versión deployada de la aplicación web que utiliza la API [aquí](https://cook-web-weathered-thunder-7639.fly.dev/) y el repositorio para el front-end [aquí](https:/ /github.com/luz-ojeda/cook-web).
+Puede encontrar una versión deployada de la aplicación web que utiliza la API [aquí](https://cook-web-weathered-thunder-7639.fly.dev/) y el repositorio para el front-end [aquí](https:/ /github.com/lezojeda/cook-web).
 
 ## Características
 
@@ -37,7 +37,7 @@ Si instala con [Docker](https://www.docker.com/get-started)
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/luz-ojeda/cook-api.git
+    git clone https://github.com/lezojeda/cook-api.git
 
 2. Navegue hasta el directorio raíz del proyecto.
 
@@ -72,7 +72,7 @@ Dentro del archivo `appsettings.Development.json`, ubique la propiedad `Connecti
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/luz-ojeda/cook-api.git
+    git clone https://github.com/lezojeda/cook-api.git
 
 2. Cree una carpeta `db` en el directorio raíz con su contraseña de PostgreSQL en un archivo `password.txt` dentro. Se define un [secreto de docker](https://docs.docker.com/engine/swarm/secrets/) con nombre `db-password` en el archivo `compose.yaml`, el servicio `db` obtiene la contraseña PSQL de este secreto.
 
